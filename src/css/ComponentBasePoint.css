@@ -1,0 +1,39 @@
+.point{
+	border-radius: 50%;
+	position: absolute;
+ 	font-size:1.3em; 
+}
+.point .title{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+}
+.point .value{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;	
+}
+@keyframes scale{
+	0%{
+		transform: scale(0);
+		opacity: 1;
+	}
+	100%{
+		transform: scale(1.6);
+		opacity: 0;
+	}
+}
+.point_animate{
+	position: absolute;
+	z-index:-1;
+	background:#ccc;
+	border-radius: 50%;
+	animation-name:scale;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+.point_0{
+	box-shadow: 0 0 10px 3px #ccc;
+}

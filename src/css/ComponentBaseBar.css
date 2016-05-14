@@ -1,0 +1,21 @@
+.component_bar .container{
+	overflow: hidden;
+	margin-top:20px;
+}
+.component_bar .name{
+	float:left;
+	font-size:1.3em;
+}
+.component_bar .bar{
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+.component_bar .content{
+	height: 25px;
+}
+.component_bar .rate{
+	font-size:1em;
+	margin-left:20px;
+}
+

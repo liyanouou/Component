@@ -1,0 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.component{
+	background-image: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}

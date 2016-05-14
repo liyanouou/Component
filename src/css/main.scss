@@ -1,0 +1,53 @@
+$title_width : 197;
+$title_height : 65;
+div,p{
+	margin: 0;
+	padding: 0;
+}
+@keyframes animate{
+	0% {transform:rotate(-3deg);}
+	5% {transform:rotate(0deg);}
+	10% {transform:rotate(3deg);}
+	15% {transform:rotate(0deg);}
+	20% {transform:rotate(-3deg);}
+	25% {transform:rotate(0deg);}
+	30% {transform:rotate(3deg);}
+	35% {transform:rotate(0deg);}
+	100% {transform: rotate(0deg)}
+}
+.page_title{
+	background: url(../img/face_bg.png);
+	width: 100%;
+}
+.component_base_title{
+	width: $title_width;
+	height: $title_height;
+	background-size: 100%;
+	animation-name: animate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.page_point{
+	background: url(../img/page_bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:100%;
+}
+.page_bar{
+	background:url(../img/page_bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:100%;
+}
+.page_polyline{
+	background: url(../img/page_bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.page_pie{
+	background:url(../img/page_bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+}
